@@ -1,0 +1,144 @@
+.header {
+  width: 3.75rem;
+  height: 0.44rem;
+  line-height: 0.44rem;
+  font-family: Helvetica;
+  font-size: 0.17rem;
+  color: #FFFFFF;
+  letter-spacing: 0;
+  background-color: #FF6040;
+  text-align: center;
+  position: relative;
+}
+.header .header_img {
+  width: 0.2rem;
+  height: 0.2rem;
+  position: absolute;
+  left: 0.17rem;
+  top: 0.12rem;
+  margin-right: 1.5rem;
+}
+.header .header_img img {
+  width: 0.2rem;
+  height: 0.2rem;
+}
+.header span {
+  opacity: 0.8;
+}
+.nav {
+  width: 3.75rem;
+  height: 0.8rem;
+  background-image: linear-gradient(180deg, #FF6040 0%, #FF8A80 100%);
+  box-shadow: 0 2px 6px 0 rgba(255, 149, 128, 0.5);
+  padding-bottom: 0.03rem;
+}
+.nav .nav1 {
+  padding: 0.1rem 0.11rem;
+  position: relative;
+}
+.nav .nav1 input {
+  padding-left: 0.3rem;
+  width: 3.1rem;
+  height: 0.32rem;
+  background: #FFFFFF;
+  border: 1px solid #E6E6E6;
+  border-radius: 3px;
+  margin: 0 0.19rem;
+  margin-left: 0.06rem;
+}
+.nav .nav1 .img3 {
+  position: absolute;
+  top: 0.19rem;
+  left: 0.25rem;
+  width: 0.16rem;
+  height: 0.16rem;
+}
+.nav .nav2 {
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.14rem;
+  line-height: 0.26rem;
+  height: 0.24rem;
+  font-family: PingFangSC-Regular;
+}
+.nav .nav2 .l {
+  color: #FFF3F2;
+  text-align: center;
+  display: flex;
+  justify-content: space-around;
+  flex: 1;
+}
+.nav .nav2 .l span {
+  display: inline-block;
+  height: 0.24rem;
+}
+.nav .nav2 .l .da {
+  margin-top: -0.02rem;
+  font-size: 0.16rem;
+}
+.nav .nav2 .r {
+  width: 0.65rem;
+  height: 0.25rem;
+  background-image: linear-gradient(180deg, #FF7A68 0%, #FF8A80 100%);
+  box-shadow: -5px 5px 10px -5px #E63D2E;
+  color: #FFFFFF;
+  text-align: center;
+}
+.nav .nav2 .r img {
+  width: 0.16rem;
+  height: 0.16rem;
+  display: inline-block;
+  vertical-align: middle;
+}
+.cont {
+  padding: 0.1rem;
+}
+.cont .top {
+  width: 3.55rem;
+  height: 0.32rem;
+  background: #FFF4F2;
+  border: 1px solid #FF6040;
+  border-radius: 2px;
+  text-align: center;
+  line-height: 0.32rem;
+  font-size: 0.16rem;
+  color: #FF6040;
+  font-weight: bold;
+}
+.cont .van-card {
+  position: relative;
+  padding: 0;
+  width: 3.56rem;
+  height: 1.09rem;
+  margin-top: 0.1rem;
+}
+.cont .van-card .van-card__thumb {
+  width: 1.08rem;
+  height: 1.08rem;
+  margin-right: 0.3rem;
+}
+.cont .van-card .van-card__title {
+  margin-top: 0.1rem;
+  font-size: 0.16rem;
+  color: #333;
+}
+.cont .van-card .van-card__bottom {
+  position: absolute;
+  top: 0.55rem;
+  left: 0;
+  color: #FF6040 !important;
+}
+.cont .van-card .van-card__price-currency {
+  color: #FF6040 !important;
+}
+.cont .van-card .van-card__price-integer {
+  color: #FF6040 !important;
+  font-size: 0.2rem;
+  font-weight: bold;
+}
+.cont .van-card .van-card__price-decimal {
+  color: #FF6040 !important;
+}
+.cont .van-card .del {
+  color: #979797;
+}

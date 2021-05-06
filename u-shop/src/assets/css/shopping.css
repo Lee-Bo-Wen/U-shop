@@ -1,0 +1,231 @@
+.van-tabs__nav--line {
+  background-image: linear-gradient(180deg, #FF6040 0%, #FF8A80 100%) !important;
+  box-shadow: 0 2px 6px 0 rgba(255, 149, 128, 0.5);
+}
+.van-tabs__nav--line .van-tab--active .van-tab__text--ellipsis {
+  font-family: PingFangSC-Semibold;
+  font-size: 0.16rem;
+  color: #FFFFFF;
+  text-align: center;
+  line-height: 0.16rem;
+}
+.van-tabs__nav--line .van-tab__text--ellipsis {
+  font-family: PingFangSC-Semibold;
+  font-size: 0.14rem;
+  color: #FFF3F2;
+  text-align: center;
+  line-height: 0.14rem;
+}
+.van-tabs__nav--line .van-tabs__line {
+  width: 0.2rem;
+  height: 0.02rem;
+  background: #FFFFFF;
+  border-radius: 1px;
+}
+.title {
+  background-color: #fff;
+  width: 3.55rem;
+  height: 0.36rem;
+  padding: 0 0.1rem;
+  line-height: 0.36rem;
+  font-family: PingFangSC-Regular;
+  font-size: 0.12rem;
+  color: #333333;
+}
+.title input[type="radio"] {
+  display: none;
+}
+.title label {
+  border: 1px solid #a3a1a1;
+  border-radius: 50%;
+  padding-left: 0.18rem;
+  cursor: pointer;
+  background: #e2e2e2;
+  margin-right: 0.1rem;
+}
+.title i {
+  font-family: PingFangSC-Semibold;
+  font-size: 0.16rem;
+  color: #333333;
+  line-height: 0.16rem;
+  font-weight: bold;
+  margin-right: 1.75rem;
+}
+.title span {
+  color: #FF6040;
+}
+.cont {
+  width: 3.75rem;
+  margin: 0.1rem 0 0.2rem 0;
+}
+.cont ul {
+  padding-top: 0.1rem;
+  padding-bottom: 0;
+  background-color: #fff;
+  margin-bottom: 1.28rem;
+}
+.cont ul li {
+  display: flex;
+  padding-bottom: 0.15rem;
+  margin-bottom: 0.15rem;
+  border-bottom: 1px solid #ccc;
+}
+.cont ul li .box1 {
+  line-height: 1.08rem;
+  padding-left: 0.1rem;
+}
+.cont ul li .box1 input[type="radio"] {
+  display: none;
+}
+.cont ul li .box1 input[type="radio"] + label::before {
+  content: "\a0";
+  /*不换行空格*/
+  display: inline-block;
+  vertical-align: middle;
+  width: 0.15rem;
+  height: 0.15rem;
+  margin-right: 0.4em;
+  border-radius: 50%;
+  border: 1px solid #9e9d9c;
+  background-color: #e9e0e0;
+  text-indent: 0.15em;
+  padding: 0.02rem;
+}
+.cont ul li .box1 input[type="radio"]:checked + label::before {
+  border: 1px solid #f84d1a;
+  background-color: #FF6040;
+  background-clip: content-box;
+  padding: 0.02rem;
+}
+.cont ul li .box2 {
+  margin: 0 0.12rem 0 0.05rem;
+}
+.cont ul li .box2 img {
+  width: 1.08rem;
+  height: 1.08rem;
+}
+.cont ul li .box3 {
+  width: 2.16rem;
+  font-family: PingFangSC-Regular;
+  position: relative;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.cont ul li .box3 p:nth-child(1) {
+  color: #333333;
+  font-size: 0.16rem;
+  font-weight: bold;
+}
+.cont ul li .box3 p:nth-child(2) {
+  font-size: 0.12rem;
+  color: #999;
+  margin-top: 0.05rem;
+  margin-bottom: 0.15rem;
+}
+.cont ul li .box3 p:nth-child(3) {
+  font-size: 0.1rem;
+  width: 0.84rem;
+  height: 0.16rem;
+  background: #F2F2F2;
+  border-radius: 1px;
+  line-height: 0.16rem;
+  color: #333;
+  padding: 0.02rem;
+}
+.cont ul li .box3 p:nth-child(4) {
+  margin-top: 0.04rem;
+  font-size: 0.1rem;
+  color: #FF6040;
+}
+.cont ul li .box3 p:nth-child(5) {
+  font-size: 0.3rem;
+  margin-bottom: 0.05rem;
+}
+.cont ul li .box3 p:nth-child(5) i {
+  font-size: 0.1rem;
+  color: #FF6040;
+}
+.cont ul li .box3 p:nth-child(5) em {
+  color: #FF6040;
+  font-size: 0.23rem;
+}
+.cont ul li .box3 p:nth-child(5) del {
+  color: #999999;
+  font-size: 0.1rem;
+  margin-right: 0.25rem;
+}
+.cont ul li .box3 p:nth-child(5) span {
+  background: #F2F2F2;
+  border-radius: 1px;
+  padding: 0.05rem 0.15rem;
+  font-size: 0.16rem;
+  vertical-align: middle;
+}
+.cont ul li .box3 .van-stepper {
+  position: absolute;
+  left: 1.05rem;
+  top: 0.9rem;
+}
+.cont ul .van-button {
+  height: 100%;
+}
+.foot {
+  background-color: #fff;
+  width: 3.65rem;
+  height: 0.49rem;
+  position: fixed;
+  left: 0;
+  bottom: 0.69rem;
+  display: flex;
+  justify-content: space-between;
+  padding-left: 0.1rem;
+  color: #333;
+  line-height: 0.49rem;
+}
+.foot .foot1 {
+  width: 1rem;
+}
+.foot .foot1 input[type="radio"] {
+  display: none;
+}
+.foot .foot1 input[type="radio"] + label::before {
+  content: "\a0";
+  /*不换行空格*/
+  display: inline-block;
+  vertical-align: middle;
+  width: 0.15rem;
+  height: 0.15rem;
+  margin-right: 0.4em;
+  border-radius: 50%;
+  border: 1px solid #9e9d9c;
+  background-color: #e9e0e0;
+  text-indent: 0.15em;
+  padding: 0.02rem;
+}
+.foot .foot1 input[type="radio"]:checked + label::before {
+  border: 1px solid #f84d1a;
+  background-color: #FF6040;
+  background-clip: content-box;
+  padding: 0.02rem;
+}
+.foot .foot2 {
+  line-height: 0.38rem;
+}
+.foot .foot2 p {
+  font-size: 10px;
+  color: #999999;
+  line-height: 0.02rem;
+}
+.foot .foot3 {
+  width: 0.7rem;
+  color: #FF6040;
+  font-size: 0.2rem;
+}
+.foot .foot4 {
+  width: 1.1rem;
+  height: 0.49rem;
+  background: #FF6040;
+  color: #fff;
+  text-align: center;
+}

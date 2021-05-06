@@ -1,0 +1,90 @@
+.head {
+    background-image: linear-gradient(180deg, #FF6040 0%, #FF8A80 100%);
+    box-shadow: 0 2px 6px 0 rgba(255, 149, 128, 0.50);
+    width: 3.75rem;
+    height: 0.52rem;
+    text-align: center;
+    position: relative;
+
+    input {
+        margin-top: 0.1rem;
+        padding-left: 0.34rem;
+        width: 3.2rem;
+        height: 0.32rem;
+        border: 1px solid #E6E6E6;
+        border-radius: 3px;
+    }
+
+    .van-icon {
+        position: absolute;
+        top: .12rem;
+        left: .15rem;
+    }
+}
+
+.contant {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    background-color: #fff;
+
+    .van-sidebar {
+        font-family: PingFangSC-Light;
+        font-size: .14rem;
+        color: #999999;
+        text-align: center;
+        width: 1.18rem;
+        height: 3.6rem;
+        box-shadow: 0 5px 10px 0 rgba(51, 51, 51, 0.10);
+        margin-bottom: 2rem;
+    }
+
+    .cont {
+        padding: 0.1rem;
+        padding-bottom: 0.2rem;
+        background-color: #fff;
+        width: 2.12rem;
+        margin: .15rem .1rem .15rem 0;
+        box-shadow: 0 0px 3px 3px rgba(51, 51, 51, 0.10);
+
+        h1 {
+            font-family: PingFangSC-Semibold;
+            font-size: 16px;
+            color: #333333;
+            line-height: 16px;
+            font-weight: bold;
+        }
+
+        ul {
+            // margin: .1rem .15rem 0 0;
+            width: 100%;
+
+            li {
+                float: left;
+                margin-right: .1rem;
+                width: 0.64rem;
+                height: 0.83rem;
+                margin-top: 0.1rem;
+                padding-bottom: .06rem;
+                box-shadow: 0 0px 2px 2px rgba(51, 51, 51, 0.10);
+
+                img {
+                    width: 0.64rem;
+                    height: 0.64rem;
+                }
+
+                p {
+                    font-family: PingFangSC-Light;
+                    font-size: 12px;
+                    color: #999999;
+                    text-align: center;
+                    line-height: 12px;
+                    margin-top: 0.07rem;
+                }
+            }
+            li:nth-child(3n){
+                margin-right: 0;
+            }
+        }
+    }
+}
